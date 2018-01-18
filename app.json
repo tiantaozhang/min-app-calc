@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/calc/calc",
+    "pages/history/history"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "天天哥",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#ff7f50",
+    "selectColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_selected.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_selected.png",
+        "pagePath": "pages/index/index",
+        "text": "搜索"
+      },
+      {
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_selected.png",
+        "pagePath": "pages/index/index",
+        "text": "搜索"
+      }
+    ],
+    "borderStyle": "bottom"
+  },
+  "networkTimeout": {
+    "request": 60000,
+    "connectSocket": 60000
+  },
+  "debug": true
+
+}

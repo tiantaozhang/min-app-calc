@@ -1,0 +1,45 @@
+<view class="content">
+    <view class="layout-top">
+        <view class="screen">
+            {{screenData}}
+        </view>
+    </view>
+
+    <view class="layout-bottom">
+        <view class="btn-group">
+            <view class="item orange" id="{{idc}}" bindtap="clickBtn">C</view>
+            <view class="item orange" id="{{idb}}" bindtap="clickBtn">←</view>
+            <view class="item orange iconBtn" bindtap="history">
+                <icon type="{{iconType}}" color="{{iconColor}}" class="icon" size="25"></icon>
+            </view>
+            <view class="item orange" id="{{idadd}}" bindtap="clickBtn">+</view>
+        </view>
+
+        <view class="btn-group">
+            <view class="item blue" id="{{id9}}" bindtap="clickBtn">9</view>
+            <view class="item blue" id="{{id8}}" bindtap="clickBtn">8</view>
+            <view class="item blue" id="{{id7}}" bindtap="clickBtn">7</view>
+            <view class="item orange" id="{{idsub}}" bindtap="clickBtn">-</view>
+        </view>
+
+        <view class="btn-group">
+            <view class="item blue" id="{{id6}}" bindtap="clickBtn">6</view>
+            <view class="item blue" id="{{id5}}" bindtap="clickBtn">5</view>
+            <view class="item blue" id="{{id4}}" bindtap="clickBtn">4</view>
+            <view class="item orange" id="{{idx}}" bindtap="clickBtn">x</view>
+        </view>
+
+        <view class="btn-group">
+            <view class="item blue" id="{{id3}}" bindtap="clickBtn">3</view>
+            <view class="item blue" id="{{id2}}" bindtap="clickBtn">2</view>
+            <view class="item blue" id="{{id1}}" bindtap="clickBtn">1</view>
+            <view class="item orange" id="{{iddiv}}" bindtap="clickBtn">÷</view>
+        </view>
+
+        <view class="btn-group">
+            <view class="item blue zero" id="{{id0}}" bindtap="clickBtn">0</view>
+            <view class="item blue" id="{{idd}}" bindtap="clickBtn">.</view>
+            <view class="item orange" id="{{ide}}" bindtap="clickBtn">=</view>
+        </view>
+    </view>
+</view>
